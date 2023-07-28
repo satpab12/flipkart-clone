@@ -1,0 +1,227 @@
+* {
+   margin: 0;
+   font-family: Arial;
+}
+
+body {
+   background-color:  rgba(238, 231, 231, 0.699);;
+}
+
+.navbar {
+   background-color: #FFFFFF;
+   height: 66px;
+   display: flex;
+   align-items: center;
+   margin-right: -1px;
+}
+
+.search-input {
+   width: 600px;
+   height: 40px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgba(219, 239, 240, 0.938);
+   font-size: 16px;
+   position: absolute;
+   left: 220px;
+   top: 11px;
+}
+
+.search-select i {
+   position: absolute;
+   top: 23px;
+   z-index: 1;
+   color: rgb(95, 92, 92);
+   left: 232px;
+}
+
+.seller-img {
+   z-index: 1;
+   display: flex;
+   position: absolute;
+   margin-left: 440px;
+   top: 20px;
+}
+
+.seller-text {
+   margin-top: 5px;
+   font-weight: 700px;
+}
+
+.sign-logo {
+   margin-left: 640px;
+   transform: scale(1.3);
+}
+
+.sign-in i {
+   margin-top: 17px;
+   margin-right: 50px;
+}
+
+.sign-text {
+   margin-right: 60px;
+}
+
+.sign-in {
+   display: flex;
+   margin-bottom: 15px;
+}
+
+.sign-in p {
+   margin-top: 20px;
+   position: absolute;
+   right: 190px;
+}
+
+.cart {
+   display: flex;
+   align-items: center;
+   margin-left: 50px;
+   margin-top: 10px;
+}
+
+.ops-logo {
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+   margin-top: 7px;
+   transform: scale(1.2);
+}
+
+ /* Hero Section */
+
+ .hero-section {
+   background-color: #FFFFFF;
+   height: 130px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+ .hero-section p {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+ }
+
+.images {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.electronics {
+   margin-top: 11px;
+}
+
+.two-wheelers {
+   margin-top: 10px;
+}
+
+.top-offers {
+   margin-top: 10px;
+}
+
+.appliances {
+   margin-top: 0.01px
+}
+
+.travel {
+   margin-top: 8px
+}
+
+.grocery {
+   margin-top: 3px;
+}
+
+.btm {
+   margin-top: 7px;
+}
+
+/* Hero Image */
+
+.advertisement {
+   background-image: url('hero_image.png');
+   background-size: cover;
+   height: 250px;
+   width: 98.6%;
+   margin-right: 10px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+/* Products */
+
+.products {
+   width: 1130px;
+   height: 300px;
+   background-color: #FFFFFF;
+   margin-top: 15px;
+   margin-left: 10px;
+}
+
+.products div {
+   display: flex;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+
+.pro-heading {
+   padding-top: 30px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+}
+
+.powerbank {
+   height: 220px;
+   width: 200px;
+   border: 1px solid rgb(121, 118, 118);
+   border-radius: 5px;
+   text-align: center;
+}
+
+.phone {
+   height: 220px;
+   width: 200px;
+   border: 1px solid rgb(121, 118, 118);
+   border-radius: 5px;
+   position: absolute;
+   left: 700px;
+   text-align: center;
+}
+
+.trimmer {
+   height: 220px;
+   width: 200px;
+   border: 1px solid rgb(121, 118, 118);
+   border-radius: 5px;
+   position: absolute;
+   left: 470px;
+   text-align: center;
+}
+
+.monitor {
+   height: 220px;
+   width: 200px;
+   border: 1px solid rgb(121, 118, 118);
+   border-radius: 5px;
+   position: absolute;
+   top: 543px;
+   text-align: center;
+}
+
+.ops {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.phone img {
+  
+}
