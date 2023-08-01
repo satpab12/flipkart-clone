@@ -7,6 +7,8 @@ body {
    background-color:  rgba(238, 231, 231, 0.699);;
 }
 
+/* Navigation Bar */
+
 .navbar {
    background-color: #FFFFFF;
    height: 66px;
@@ -23,7 +25,7 @@ body {
    background-color: rgba(219, 239, 240, 0.938);
    font-size: 16px;
    position: absolute;
-   left: 220px;
+   left: 230px;
    top: 11px;
 }
 
@@ -32,7 +34,7 @@ body {
    top: 23px;
    z-index: 1;
    color: rgb(95, 92, 92);
-   left: 232px;
+   left: 240px;
 }
 
 .seller-img {
@@ -59,7 +61,7 @@ body {
 }
 
 .sign-text {
-   margin-right: 60px;
+   margin-right: 22px;
 }
 
 .sign-in {
@@ -70,7 +72,7 @@ body {
 .sign-in p {
    margin-top: 20px;
    position: absolute;
-   right: 190px;
+   right: 210px;
 }
 
 .cart {
@@ -141,6 +143,10 @@ body {
    margin-top: 7px;
 }
 
+.mobiles {
+   margin-top: 9px;
+}
+
 /* Hero Image */
 
 .advertisement {
@@ -156,8 +162,16 @@ body {
 /* Products */
 
 .products {
-   width: 1130px;
-   height: 300px;
+   width: 1330px;
+   height: 320px;
+   background-color: #FFFFFF;
+   margin-top: 15px;
+   margin-left: 10px;
+}
+
+.products2 {
+   width: 1330px;
+   height: 320px;
    background-color: #FFFFFF;
    margin-top: 15px;
    margin-left: 10px;
@@ -166,10 +180,11 @@ body {
 .products div {
    display: flex;
    display: inline-block;
-   justify-content: center;
+   justify-content: space-evenly;
    align-items: center;
-   margin-left: 30px;
+   margin-left: 15px;
    margin-top: 10px;
+   margin-right: 1px;
 }
 
 .pro-heading {
@@ -179,41 +194,75 @@ body {
 }
 
 .powerbank {
-   height: 220px;
-   width: 200px;
+   height: 230px;
+   width: 210px;
    border: 1px solid rgb(121, 118, 118);
    border-radius: 5px;
    text-align: center;
 }
 
-.phone {
-   height: 220px;
-   width: 200px;
+.projector {
+   height: 230px;
+   width: 210px;
    border: 1px solid rgb(121, 118, 118);
    border-radius: 5px;
    position: absolute;
-   left: 700px;
+   left: 670px;
    text-align: center;
 }
 
 .trimmer {
-   height: 220px;
-   width: 200px;
+   height: 230px;
+   width: 210px;
    border: 1px solid rgb(121, 118, 118);
    border-radius: 5px;
    position: absolute;
-   left: 470px;
+   left: 450px;
    text-align: center;
 }
 
 .monitor {
-   height: 220px;
-   width: 200px;
+   height: 230px;
+   width: 210px;
    border: 1px solid rgb(121, 118, 118);
    border-radius: 5px;
    position: absolute;
    top: 543px;
+   left: 230px;
    text-align: center;
+}
+
+.camera {
+   position: absolute;
+   left: 890px;
+   border: 1px solid rgb(121, 118, 118);
+   border-radius: 5px;
+   text-align: center;
+   height: 230px;
+   width: 210px;
+   display: flex;
+   justify-content: center;
+}
+
+.printer {
+   border: 1px solid rgb(121, 118, 118);
+   position: absolute;
+   left: 1107px;
+   height: 230px;
+   width: 210px;
+   display: flex;
+   justify-content: center;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.camera img {
+   height: 150px;
+   width: 150px;
+}
+
+.monitor p {
+   margin-top: 27px;
 }
 
 .ops {
@@ -222,6 +271,71 @@ body {
    justify-content: center;
 }
 
-.phone img {
-  
+.pro-text {
+   margin-top: 30px;
+}
+
+.powerbank img {
+   height: 180px;
+   width: 180px;
+}
+
+.justifying {
+   margin-left: 10px;
+}
+
+/* Footer */
+
+.footer-part1 {
+   background-color: rgb(34, 32, 32);
+   width: auto;
+   height: 270px;
+   color: white;
+   font-weight: 700;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.footer-part2 {
+   display: flex;
+}
+
+.footer p {
+   font-size: 0.85rem;
+   color: grey;
+   font-weight: 100;
+   margin-left: 40px;
+}
+
+.footer li {
+   font-size: 0.75rem;
+   color: white;
+   font-weight: 700;
+   list-style-type: none;
+   margin-bottom: 5px;
+}  
+
+.footer-options {
+   height: 70px;
+   width: 1600px;
+   background-color:rgb(34, 32, 32);
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.footer-options p {
+   color: #FFFFFF;
+   font-weight: 100;
+   font-size: 0.75rem;
+   letter-spacing: 1.4px;
+}
+
+.footer-align {
+   display: flex;
+   align-items: center;
+}
+
+.footer-align img {
+   margin-right: -28px;
 }
